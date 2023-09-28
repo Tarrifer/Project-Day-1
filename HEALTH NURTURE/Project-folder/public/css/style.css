@@ -1,0 +1,147 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the whole page */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    /* color: #333;  */
+}
+
+header {
+    background-color: #ff5733;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Top Section (Logo, Search, Buttons) */
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #ff5733; Same as header background */
+    background-color: #233142;
+    padding: 10px 20px; /* Increased padding for spacing */
+}
+
+.top-section div {
+    margin: 0 10px;
+}
+
+#search {
+    padding: 10px; /* Increased padding for search input */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 250px; /* Adjust the width as needed */
+}
+
+/* Navigation Panel */
+nav.panel {
+    background-color: #0044cc;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.nav-button {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded buttons */
+    transition: background-color 0.2s; /* Smooth button hover effect */
+}
+
+.nav-button:hover {
+    background-color: #002299;
+}
+
+/* Top Stories Section */
+.top-story {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff; /* White background */
+    margin-bottom: 20px; /* Added margin for separation */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* .top-story h2 {
+    color: #333; Dark text color
+} */
+
+/* Content Section */
+.content {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff; /* White background */
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h3 {
+    /* color: #333; */
+    margin-bottom: 20px; /* Added spacing below headings */
+}
+
+/* Health Facts and Health News Sections */
+.health-facts,
+.health-news {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.health-facts article,
+.health-news article {
+    margin: 10px;
+    padding: 20px; /* Increased padding for articles */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded article containers */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    text-align: center; /* Center text */
+}
+
+.health-facts img,
+.health-news img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.health-facts p,
+.health-news p {
+    margin-top: 10px;
+    /* color: #555; Slightly darker text color */
+}
+
+/* Additional Feature Sections */
+.vaccination-monitoring,
+.medication-reminder,
+.medical-doc-storage,
+.health-info-hub,
+.disease-info-prevention {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.HN {
+        background-color: black;
+        color: burlywood;
+        width: 150px;
+        text-align: center; 
+        margin: 0 auto;
+
+}
